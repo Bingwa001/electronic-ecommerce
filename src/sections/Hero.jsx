@@ -30,7 +30,7 @@ const Hero = () => {
 
        return (
         <div>
-            <div id="hero" className="w-full flex justify-center items-center lg:h-[700px] h-[600px]"></div>
+            <div id="hero" className="w-full flex justify-center items-center lg:h-[10px] h-[600px]"></div>
             <Slider className="w-full" {...settings}>
                 <div>
                     <div className="w-full lg:px-20 px-5 lg:h-[700px] h-[600px] 
@@ -49,8 +49,59 @@ const Hero = () => {
                            <h1 data-aos="zoom-in" data-aos-delay="100"
                            className="text-white text-2xl" >100% trusted <span
                             className="text-themeyellow border-themeyellow">Electronics 
-                            Gadget</span></h1>
-                        {/* Your content here */}
+                            Gadgets</span></h1>
+                            <button data-aos="zoom-in" data-aos-delay="200"
+                            className="bg-themeyellow px-6 py-3 rounded-lg
+                            text-black font-semibold">ONLINE COLLECTIONS</button>
+                           
+                    </div>
+                </div>
+                 <div>
+                    <div className="w-full lg:px-20 px-5 lg:h-[700px] h-[600px] 
+                    flex flex-col justify-center items-start gap-10 bg-cover bg-center" 
+                         style={{ backgroundImage: `url(${earbuds})` 
+                         }}>
+                          <h1 data-aos="zoom-in" data-aos-delay="50"
+                          className="text-themeyellow border rounded-lg
+                          border-themeyellow px-6 py text-xl">Get up to 80%
+                           off discount</h1>
+                           <h1 data-aos="zoom-in" data-aos-delay="100"
+                            className="text-white lg:text-[120px] text-[60px]
+                            uppercase font-bold lg:leading-[120px] leading-[70px]">
+                            Wireless <br /> Earbuds
+                           </h1>
+                           <h1 data-aos="zoom-in" data-aos-delay="100"
+                           className="text-white text-2xl" >100% trusted <span
+                            className="text-themeyellow border-themeyellow">Electronics 
+                            Gadgets</span></h1>
+                            <button data-aos="zoom-in" data-aos-delay="200"
+                            className="bg-themeyellow px-6 py-3 rounded-lg
+                            text-black font-semibold">ONLINE COLLECTIONS</button>
+                           
+                    </div>
+                </div>
+                 <div>
+                    <div className="w-full lg:px-20 px-5 lg:h-[700px] h-[600px] 
+                    flex flex-col justify-center items-start gap-10 bg-cover bg-center" 
+                         style={{ backgroundImage: `url(${headset})` 
+                         }}>
+                          <h1 data-aos="zoom-in" data-aos-delay="50"
+                          className="text-themeyellow border rounded-lg
+                          border-themeyellow px-6 py text-xl">Get up to 80%
+                           off discount</h1>
+                           <h1 data-aos="zoom-in" data-aos-delay="100"
+                            className="text-white lg:text-[120px] text-[60px]
+                            uppercase font-bold lg:leading-[120px] leading-[70px]">
+                            Headsets
+                           </h1>
+                           <h1 data-aos="zoom-in" data-aos-delay="100"
+                           className="text-white text-2xl" >100% trusted <span
+                            className="text-themeyellow border-themeyellow">Electronics 
+                            Gadgets</span></h1>
+                            <button data-aos="zoom-in" data-aos-delay="200"
+                            className="bg-themeyellow px-6 py-3 rounded-lg
+                            text-black font-semibold">ONLINE COLLECTIONS</button>
+                           
                     </div>
                 </div>
             </Slider>
